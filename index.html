@@ -14,19 +14,30 @@
     }
 
     header {
-      height: 100vh;
+      min-height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      background: linear-gradient(180deg, #0e0e0e 40%, #1a0f1f);
+
+      padding-top: 40px;
+
+      background: 
+        linear-gradient(rgba(14,14,14,0.6), rgba(26,15,31,0.8)),
+        url("posecirco2.jpg");
+
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
       text-align: center;
     }
 
     h1 {
-      font-size: 3em;
-      letter-spacing: 2px;
+      font-size: 4em;
+      letter-spacing: 4px;
       margin: 0;
+      text-shadow: 0px 0px 20px rgba(0,0,0,0.8);
     }
 
     .subtitle {
@@ -73,41 +84,15 @@
       color: #caa8f5;
       text-decoration: none;
     }
- <style>
-  body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #0e0e0e;
-    color: #eaeaea;
-  }
-
-  header {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    padding-top: 40px;
-
-    background: 
-      linear-gradient(rgba(14,14,14,0.6), rgba(26,15,31,0.8)),
-      url("posecirco2.jpg");
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    text-align: center;
-  }
-</style>
-  
+  </style>
 </head>
 
 <body>
-<header>
 
- <header/>
+<header>
+  <h1>Paula Zúñiga Irigoin</h1>
+  <div class="subtitle">El cuerpo que insiste</div>
+</header>
 
 <section>
   <h2>Sobre</h2>
@@ -123,7 +108,7 @@
   <div class="project">
     <div class="project-title">La forma de lo que se va: Solo en proceso</div>
     <p>
-      Investigación escénica en torno al tiempo, la repetición y el desgaste del cuerpo. La concepción lineal del tiempo es un termino occidental, aquí vamos a trabajar en torno a ello
+      Investigación escénica en torno al tiempo, la repetición y el desgaste del cuerpo.
     </p>
   </div>
 
@@ -140,8 +125,8 @@
 <section>
   <h2>galería</h2>
   <div class="gallery">
-    <img src="https://via.placeholder.com/800x500" alt="imagen">
-    <img src="https://via.placeholder.com/800x500" alt="imagen">
+    <img src="https://via.placeholder.com/800x500">
+    <img src="https://via.placeholder.com/800x500">
   </div>
 </section>
 
